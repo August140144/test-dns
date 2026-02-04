@@ -6,7 +6,7 @@
           c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
           t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
           y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-      })(window, document, "clarity", "script", "vc09qlltst");
+      })(window, document, "clarity", "script", "vc12kbc02s");
   </script>
 
   <meta charset="UTF-8">
@@ -28,7 +28,7 @@
 
     .container { width: 100%; max-width: 900px; margin: 0 auto; padding: 0 15px; }
 
-    /* 2. Hero Section */
+    /* 2. Hero Section - ปรับระยะให้กระชับขึ้นเพื่อให้เห็นหัวข้อถัดไป */
     .hero { text-align: center; padding: 25px 10px 5px; }
     .hero-img { width: 85px; margin: 0 auto 10px; border: 3px solid #fbc02d; border-radius: 20px; }
     .hero h1 { 
@@ -39,7 +39,7 @@
     }
     .hero p { font-size: 0.9rem; opacity: 0.9; }
 
-    /* ชุดที่ 1: ปุ่มดาวน์โหลด 2x2 ด้านบน */
+    /* ชุดที่ 1: ปุ่มดาวน์โหลด 2x2 ด้านบน (เพิ่มใหม่แบบ Compact) */
     .top-download-section { text-align: center; margin: 15px 0 20px; }
     .top-download-section h3 { font-size: 1rem; color: #fbc02d; margin-bottom: 10px; font-weight: 400; }
     .dl-grid-2x2 { 
@@ -89,7 +89,7 @@
     .benefit-card h4 { font-size: 0.9rem; margin-bottom: 3px; font-weight: 600; }
     .benefit-card p { font-size: 0.75rem; color: #666; line-height: 1.2; }
 
-    /* FAQ */
+    /* FAQ (ทำกรอบและเส้นสีตามสั่ง) */
     .faq-item { background: #fff; color: #333; padding: 18px; border-radius: 12px; margin-bottom: 12px; border-left: 6px solid #fbc02d; }
     
     footer { padding: 40px 0; text-align: center; background: rgba(0,0,0,0.4); border-top: 1px solid rgba(255,255,255,0.1); }
@@ -100,7 +100,7 @@
 
   <header class="hero">
     <div class="container">
-      <img src="https://dash.cloudflare.com/assets/favicon-32x32.png" alt="Logo" class="hero-img">
+      <img src="https://play-lh.googleusercontent.com/39xbI_gFcmGEIl6JEAGhJQKv8GBjR_RFyJ6qhrFfA9CUOKZU2clSs7uo81e30zPGtg=w240-h480-rw" alt="Logo" class="hero-img">
       <h1>อยากเล่นแต่เว็บเข้าไม่ได้?<br><span style="color: #fbc02d;">1.1.1.1 ช่วยคุณได้</span></h1>
       <p>เน็ตเร็วขึ้น ปลอดภัย เข้าได้ทุกเว็บ ติดตั้งเลย</p>
     </div>
@@ -125,7 +125,7 @@
       <div class="acc-header" onclick="toggleAcc('and-box')"><span><i class="fab fa-android"></i> Android</span><i class="fas fa-chevron-down"></i></div>
       <div class="acc-content">
         <div class="video-wrapper">
-          <iframe src="https://www.youtube.com/embed/uqWb38fizew" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/uqWb38fizew" title="YouTube video player" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         
         <div class="inline-download">
@@ -133,10 +133,12 @@
         </div>
 
         <div class="step-grid">
-          <div class="step-block"><p>1. โหลดแอปจาก Google Play</p></div>
-          <div class="step-block"><p>2. เปิดแอปยอมรับข้อตกลง</p></div>
-          <div class="step-block"><p>3. อนุญาตติดตั้ง VPN</p></div>
-          <div class="step-block"><p>4. เชื่อมต่อสำเร็จ (Connected)</p></div>
+          <div class="step-block"><p>1. โหลดแอปจาก Google Play</p><img src="../../public/assets/images/dns/Step1ad.png"></div>
+          <div class="step-block"><p>2. เปิดแอปจะเห็นหน้าต้อนรับดังภาพ</p><img src="../../public/assets/images/dns/Step2ad.png"></div>
+          <div class="step-block"><p>3. ยอมรับข้อตกลง (Accept)</p><img src="../../public/assets/images/dns/Step3ad.png"></div>
+          <div class="step-block"><p>4. อนุญาตติดตั้ง VPN (Always Allow)</p><img src="../../public/assets/images/dns/Step4ad.png"></div>
+          <div class="step-block"><p>5. กดปุ่ม Connect</p><img src="../../public/assets/images/dns/Step5ad.png"></div>
+          <div class="step-block"><p>6. เชื่อมต่อสำเร็จ (Connected)</p><img src="../../public/assets/images/dns/Step6ad.png"></div>
         </div>
       </div>
     </section>
@@ -145,12 +147,51 @@
       <div class="acc-header" onclick="toggleAcc('ios-box')"><span><i class="fab fa-apple"></i> iOS (iPhone)</span><i class="fas fa-chevron-down"></i></div>
       <div class="acc-content">
         <div class="video-wrapper">
-          <iframe src="https://www.youtube.com/embed/DISeLZdPQYo" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/DISeLZdPQYo" title="YouTube video player" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
         <div class="inline-download">
             <a href="https://apps.apple.com/th/app/1-1-1-1-faster-internet/id1423538627" target="_blank" class="btn-gold-inline"><i class="fab fa-apple"></i> ดาวน์โหลดสำหรับ iOS</a>
         </div>
+
+        <div class="step-grid">
+          <div class="step-block"><p>1. โหลดจาก App Store</p><img src="../../public/assets/images/dns/stepinstalliphone/step1ip.jpg"></div>
+          <div class="step-block"><p>2. ยอมรับข้อตกลง (Accept)</p><img src="../../public/assets/images/dns/stepinstalliphone/step2ip.jpg"></div>
+          <div class="step-block"><p>3. อนุญาต VPN (Always Allow)</p><img src="../../public/assets/images/dns/stepinstalliphone/step3ip.jpg"></div>
+          <div class="step-block"><p>4. อนุญาติการติดตั้ง VPN</p><img src="../../public/assets/images/dns/stepinstalliphone/step4ip.jpg"></div>
+          <div class="step-block"><p>5. กด Connect</p><img src="../../public/assets/images/dns/stepinstalliphone/step5ip.jpg"></div>
+          <div class="step-block"><p>6. เชื่อมต่อสำเร็จ (Connected)</p><img src="../../public/assets/images/dns/stepinstalliphone/step6ip.jpg"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="acc-item" id="pc-box">
+      <div class="acc-header" onclick="toggleAcc('pc-box')"><span><i class="fab fa-windows"></i> Windows/Mac OS</span><i class="fas fa-chevron-down"></i></div>
+      <div class="acc-content">
+        <div class="video-wrapper">
+          <iframe src="https://www.youtube.com/embed/O89ScwU00lI" title="YouTube video player" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="inline-download" style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+            <a href="https://developers.cloudflare.com/warp-client/get-started/windows/" target="_blank" class="btn-gold-inline"><i class="fab fa-windows"></i> สำหรับ Windows</a>
+            <a href="https://developers.cloudflare.com/warp-client/get-started/macos/" target="_blank" class="btn-gold-inline"><i class="fab fa-apple"></i> สำหรับ macOS</a>
+        </div>
+
+        <div class="step-grid">
+          <div class="step-block"><p>1. ดาวน์โหลดตาม OS ที่ใช้</p><img src="../../public/assets/images/dns/stepintallpc/step1pc .png"></div>
+          <div class="step-block"><p>2. คลิก Continue</p><img src="../../public/assets/images/dns/stepintallpc/step2pc.png"></div>
+          <div class="step-block"><p>3. คลิก Accept</p><img src="../../public/assets/images/dns/stepintallpc/step3pc.png"></div>
+          <div class="step-block"><p>4. เปิดใช้งาน 1.1.1.1 with WARP</p><img src="../../public/assets/images/dns/stepintallpc/step4pc.png"></div>
+        </div>
+      </div>
+    </section>
+
+    <h2 id="what-is-it" class="section-title">1.1.1.1 คืออะไร?</h2>
+    <section class="acc-item" id="what-is-box">
+      <div class="acc-header" onclick="toggleAcc('what-is-box')"><span>คลิกเพื่ออ่านรายละเอียด</span><i class="fas fa-chevron-down"></i></div>
+      <div class="acc-content">
+        <p style="margin-bottom:15px">1.1.1.1 คือแอปพลิเคชันจากบริษัท Cloudflare ที่ช่วยให้การเข้าเว็บไซต์ต่างๆ เร็วขึ้น และมีความเป็นส่วนตัวสูง</p>
+        <img src="../../public/assets/images/dns/Introduce/info1.png" style="max-width:400px; margin:0 auto">
       </div>
     </section>
 
